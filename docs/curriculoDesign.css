@@ -1,0 +1,173 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1e1e5;
+    font-size: 18px;
+    font-style: unset;
+}
+
+.cabecalho {
+
+    width: 100%;
+    height: 2%;
+    border: 1px solid;
+    border-bottom: 8px solid #172140;
+    position: relative;
+    background-color: #242F73;
+
+}
+
+.fotoPerfil {
+
+    border-radius: 20%;
+    max-width: 10%;
+    border: 1px solid #222426;
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#rodape {
+    border-top: 4px solid #172140;
+    background-color: #242F73;
+    color: aliceblue;
+
+}
+
+#rodape p {
+    text-align: center;
+}
+
+.listMenu {
+    list-style: none;
+    display: inline;
+    border: 3px solid #172140;
+
+
+    text-decoration: none;
+    padding: 0.6%;
+    background-color: #5D75A6;
+    color: #e1e1e5;
+
+
+
+}
+
+.listMenu:hover {
+    background-color: white;
+    color: #172140;
+
+}
+
+.bordasNav {
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+nav {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.meio {
+    border-bottom: 6px solid #172140;
+    padding: 2%;
+
+}
+
+.tituloMenu {
+    color: #242F73;
+    text-align: center;
+    border-top: 3px solid #242F73;
+    border-bottom: 3px solid #242F73;
+    border-left: 3px solid #242F73;
+    border-right: 3px solid #242F73;
+    margin-bottom: 2%;
+}
+
+h2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    color: #242F73;
+}
+
+p {
+    margin-left: 3%;
+}
+
+.icon {
+    margin-left: 3%;
+    text-decoration: none;
+    color: #242F73;
+
+}
+
+.icon:hover {
+    color: #9AAFD9;
+}
+
+#redeSocial {
+    text-align: center;
+    color: #242F73;
+    background-image: url(https://i.im.ge/2023/09/10/6QduJG.papel6.jpg);
+    background-position: top;
+}
+
+#redeSocial p {
+    text-align: center;
+}
+
+
+h {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#habilidades {
+    margin-top: 3%;
+}
+
+#formacaoAcademica {
+    margin-top: 3%;
+}
+
+#experiencia {
+    margin-top: 3%;
+}
+
+#hobbies {
+    margin-top: 3%;
+}
+
+p {
+    text-align: justify;
+}
+
+#botaoRodape {
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 3px solid #172140;
+    text-decoration: none;
+    padding: 0.6%;
+    background-color: #5D75A6;
+    color: #e1e1e5;
+}
+
+#botaoRodape:hover {
+    background-color: white;
+    color: #172140;
+}
+
+#ultimasection {
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 3%;
+}

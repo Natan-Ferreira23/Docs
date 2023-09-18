@@ -1,0 +1,211 @@
+body,
+html {
+
+    margin: 0;
+    padding: 0;
+    background-color: #e1e1e5;
+    font-family: 'Roboto', sans-serif;
+    font-style: unset;
+
+
+
+}
+
+
+#topo {
+    border-bottom: 8px solid #172140;
+    background-color: #242F73;
+    color: azure;
+    width: 100%;
+    padding-top: 3%;
+
+
+}
+
+.tituloPagina {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+p {
+
+    margin-left: 1%;
+    font-size: 21px;
+    color: #090c20;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    border: 4px solid black;
+    background-color: #333c72;
+    color: azure;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 0.5%;
+}
+
+h3,
+h4 {
+    margin-left: 4%;
+    font-size: 24px;
+    color: #0b1a80;
+}
+
+ul,
+ol,
+dl {
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.imgTitulos {
+    border: 3px solid #1D2C59;
+    margin-left: 35%;
+    width: 600px;
+}
+
+img {
+    margin-left: 6%;
+    border: 5px solid #1D2C59;
+
+}
+
+.textcentro {
+    text-align: center;
+}
+
+.texttamanho {
+    font-size: 34px;
+}
+
+#blocoCor {
+    background-color: blue;
+    color: rgb(255, 255, 49);
+
+
+
+}
+
+#dotted {
+    border-style: dotted;
+    border-color: #242F73;
+
+    text-align: center;
+}
+
+#dashed {
+    border-style: dashed;
+    border-color: #242F73;
+    text-align: center;
+}
+
+#solid {
+    border-style: solid;
+    border-color: #242F73;
+    text-align: center;
+}
+
+#double {
+    border-style: double;
+    border-color: #242F73;
+    text-align: center;
+
+}
+
+#groove {
+    border-style: groove;
+    border-color: #242F73;
+    text-align: center;
+}
+
+#bordas {
+    border-top: 8px solid #242F73;
+    border-bottom: 8px solid #242F73;
+}
+
+.botoes {
+    text-decoration: none;
+    border: 3px solid #242F73;
+    padding: 0.3%;
+    margin-left: 1%;
+    color: aliceblue;
+    background-color: #9AAFD9;
+}
+
+.botoes:hover {
+    background-color: aliceblue;
+    color: #9AAFD9;
+}
+
+.listbotom {
+
+    list-style: none;
+    display: inline;
+}
+
+.separacoes {
+    border-top: 4px dashed #3a48a6;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#botaoCurriculo {
+    border: 3px solid black;
+    background-color: aliceblue;
+    padding: 0.2%;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+#botaoCurriculo:hover {
+    color: rgb(73, 63, 183);
+    background-color: rgb(161, 165, 168);
+    border-color: aliceblue;
+
+}
+
+#formCadastro {
+
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+
+#bordaForm {
+    background-color: #a9b5ff;
+    border: 3px solid black;
+    margin: 2% 20% 2% 20%;
+    padding: 1%;
+}
+
+#botaoForm {
+    margin-left: 45%;
+    padding: 1%;
+    background-color: #3a48a6;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+}
+
+#botaoForm:hover {
+    background-color: #7484ec;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+#rodape {
+    text-align: center;
+    border-top: 5px solid #010837b5;
+    background-color: #242F73;
+
+    padding: 0.1%;
+}
+
+#rodape p {
+    color: aliceblue;
+}

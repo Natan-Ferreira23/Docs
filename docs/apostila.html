@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="apostilaDesign.css">
+    <title>Apostila </title>
+</head>
+
+<body>
+    <div>
+        <div id="topo">
+            <header>
+                <h1 class="tituloPagina"> Apostila HTML e CSS </h1>
+                <nav>
+                    <a href="index.html" id="botaoCurriculo"> Curriculo </a>
+                </nav>
+
+            </header>
+        </div>
+
+        <div id="introducaoHTML">
+            <section>
+                <h2> Introdução ao HTML</h2>
+                <p class="textcentro"> O <strong>HTML </strong>é um conjunto de tags responsáveis pela marcação do
+                    conteúdo
+                    de uma página
+                    no navegador.</p>
+                <p class="textcentro"> O <strong>HTML</strong> disponibiliza um conjunto de tags, exemplo
+                    &lt;NomeTag&gt;
+                    conteúdo
+                    &lt;/NomeTag&gt;,
+                    colocamos uma tag que representa sua função e o conteúdo no meio da tag de abertura e fechamento.
+                </p>
+                <p class="textcentro"> Por isto o HTML é uma linguagem de marcação e quanto mais marcamos de maneira
+                    correta
+                    o
+                    conteúdo,mais o navegador entende e entrega com prioridade nosso site para o úsuario.</p>
+                <h3> Inicio de uma página HTML ? </h3>
+                <p> Uma página HTML tem seus elementos básicos para funcionar:</p>
+                <ul>
+                    <li>Html</li>
+                    <li> Head</li>
+                    <li> Title </li>
+                    <li> Body</li>
+                </ul>
+                <p> A tag <strong>html</strong> identifica o documento como uma pagina de html, ou seja ele é a primeira
+                    tag que
+                    informamos, todos os comandos ficam dentro dele &lt;html&gt; &lt;/html&gt; .</p>
+                <p> A tag <strong> Head </strong> contem os meta dados, no caso esses dados não são visiveis ao úsuario,
+                    mas são usados pelo navegador &lt;head&gt; &lt;/head&gt; .</p>
+                <p> A tag <strong>title</strong> fornece o titulo para uma pagina no navegador &lt;title&gt; titulo
+                    &lt;/title&gt; .</p>
+                <p> A tag <strong>body</strong> define o contúdo total e visivel em uma página, dentro dela fica as tags
+                    de marcação e os dados que o úsuario interage. </p>
+            </section>
+        </div>
+        <div>
+            <section id="titulosEp">
+                <h2> Titulos e parágrafos </h2>
+                <p class="textcentro"> Sem dúvidas as tags que mais utilizamos são as tags de <strong>Titulo</strong> e
+                    de <strong>parágrafo.</strong> </p>
+                <p class="textcentro"> As tags de títulos são h1, h2, h3, h4, h5, h6. Ou seja colocamos a tag &lt;h1&gt;
+                    Conteúdo
+                    &lt;/h1&gt; e
+                    colocamos o titulo no meio das tags.</p>
+                <p class="textcentro">A tag h1 é o titulo mais importante e principal da pagina, e a tag h6 é o menos
+                    importante, essa
+                    prioridade faz com que o seu site seja entregue mais facilmente para o usuário se bem usado. </p>
+                <img src="https://i.im.ge/2023/09/13/6hmUmX.O-que-sao-h1-h2-e-h3.png" width="20%" class="imgTitulos"
+                    alt="imagem das tags H1 até H6">
+                <p class="textcentro"> As tags de paragrafos são literalmente para paragrafos, escrevemos as informações
+                    e textos dentro e
+                    é
+                    representada por &lt;p&gt; conteudo &lt;/p&gt;</p>
+            </section>
+        </div>
+        <div>
+            <section id="tagTextos">
+                <h2> Algumas tags de texto </h2>
+                <p>A tag <strong> del </strong> mostra o contúdo escrito com um risco exemplo:<del>
+                        html</del>.
+                    Indica que o texto foi deletado, mas ainda sim deixando claro para o usuario. </p>
+                <p> A tag <strong> Sub e Sup</strong>: exemplo da tag sup A<sup>b</sup> e exemplo da tag sub
+                    A<sub>b</sub>. A tag sup coloca o conteúdo elevado e a tag sub coloca o conteúdo abaixo.</p>
+                <p> Tag <strong> big</strong> e <strong> small </strong>, exemplos:
+                    <big> big </big> <small> small</small>, a tag big é utilizada para aumentar o tamanho da letra
+                    em relação ao padrão, e a small é utilizada para diminiuir a letra em relação ao padrão.
+
+                </p>
+                <p> A tag <strong>cite</strong>, de citação é utilizada quando precisamos citar alguma obra
+                    literaria, por exemplo um filme ou livro, exemplo: &lt;p&gt; O livro &lt;cite&gt; O banquete
+                    &lt;/cite&gt;, de Platão. &lt;/p&gt; </p>
+                <p> Tag , <strong> strong</strong> é utilizada para dar enfase a uma palavra ou frase, o navegador
+                    entende que a palavra possui importância quando utilizamos strong. exemplo:&lt;strong&gt;
+                    conteudo &lt;/strong&gt;</p>
+                <p> tag <em>em</em> é semelhante a tag strong, da enfase a uma parte, porém não significa que essa
+                    parte é mais importante. &lt;em&gt; conteudo &lt;/em&gt;.</p>
+                <p> A tag <strong> blockquote</strong>, é utilizada quando precisamos trazer uma citação por exemplo
+                    do autor/personagem do livro.
+                    &lt;blockquote&gt; Só sei que nada sei. &lt;/blockquote&gt; <cite> Sócrates</cite>.
+
+            </section>
+        </div>
+        <div id="listas">
+            <section>
+                <h2> Listas</h2>
+                <p> Com as tags de <strong> lista </strong>podemos representar um grupo de itens:
+                </p>
+                <h3> Listas ordenadas de frutas</h3>
+                <ol>
+                    <li> Abacaxi</li>
+                    <li> Maçã </li>
+                    <li> Uva</li>
+                    <li> Melancia </li>
+                </ol>
+                <p> Listas <strong> ordenadas</strong> são numeradas por item, elas seguem uma sequência.</p>
+                <p> Temos as <strong> listas ordenadas</strong>, &lt;ol&gt; &lt;li&gt; item 1 &lt;/li&gt; &lt;li&gt;
+                    item 2
+                    &lt;/li&gt; &lt;/ol&gt;, ou seja abrimos a tag ordened list, dentro dela listamos os itens com a
+                    tag
+                    li.
+                </p>
+                <h3> Listas Desordenadas de frutas </h3>
+                <ul>
+                    <li> Uva</li>
+                    <li> Banana</li>
+                    <li> Morango</li>
+                    <li> Laranja </li>
+                </ul>
+                <p> Listas <strong> desordenadas</strong> são representadas por pontos ao invés de números.</p>
+                <p> Exemplo: &lt;ul&gt; &lt;li&gt; item 1 &lt;/li&gt; &lt;li&gt; item 2 &lt;/li&gt; &lt;/ul&gt;,
+                    Abrimos
+                    a
+                    tag unordered list e dentro dela colocamos as tags li que vão listar o conteúdo em seguida
+                    fechamos
+                    a
+                    tag unordered list.</p>
+                <h3 class="separacoes"> Listas de definição</h3>
+                <dl>
+                    <dt> HTML</dt>
+                    <dd> HTML é uma linguagem baseada em tags, que são elementos de marcação que definem a estrutura
+                        e o
+                        significado do conteúdo em uma página da web. </dd>
+                    <dt> CSS</dt>
+                    <dd> É uma linguagem de estilo usada para controlar a apresentação e o layout de elementos em
+                        documentos
+                        HTML.</dd>
+                    <dt> Java script</dt>
+                    <dd> É uma linguagem de programação de alto nível, interpretada e orientada a objetos, utilizada
+                        principalmente para tornar páginas da web interativas e dinâmicas.</dd>
+                </dl>
+                <p> <Strong>Listas de definição</Strong> são representadas por um tópico e uma descrição/definição.
+                </p>
+                <p> Exemplo: &lt;dl&gt; &lt;dt&gt; Tópico 1 &lt;/dt&gt; &lt;dd&gt; descrição 1 &lt;/dd&gt;
+                    &lt;dt&gt; Tópico 2 &lt;/dt&gt; &lt;dd&gt; descrição 2&lt;/dd&gt;
+                    &lt;/dl&gt;, temos a tag de abertura dl depois uma tag de abertura e fechamento dt que é o
+                    tópico,
+                    em
+                    seguida temos uma tag de abertura e fechamento da tag dd em seguida fechamos a tag dl.
+                </p>
+                <h3 class="separacoes"> Listas aninhadas e mistas</h3>
+                <p> class="textcentro" Neste trecho eu juntarei dois conceitos, listas <strong>aninhadas e
+                        mistas</strong>.</p>
+                <ol>
+                    <li> Front end</li>
+                    <ul>
+                        <li> HTML</li>
+                        <li> CSS</li>
+                        <li> Java script </li>
+                    </ul>
+                    <li> Backend </li>
+                    <uL>
+                        <li>python</li>
+                        <li>Java</li>
+                        <li> PHP</li>
+                    </uL>
+                </ol>
+                <p> Temos a lista ordenada e colocamos a lista desordenada dentro da ordenada, para que possamos
+                    listar
+                    itens de um tópico maior.</p>
+                <p> Exemplo: &lt;ol&gt; &lt;li&gt; Front end &lt;/li&gt; &lt;ul&gt; &lt;li&gt; html &lt;/li&gt;
+                    lt;li&gt;
+                    css
+                    &lt;/li&gt; &lt;li&gt; java script &lt;/li&gt; &lt;/ul&gt; </p>
+                <p> Com estes exemplos podemos ver que podemos colocar uma lista dentro de outra lista.</p>
+            </section>
+        </div>
+        <div id="links">
+            <section>
+                <h2> Links </h2>
+                <p>A tag <strong>link </strong> direciona o usuário para algum lugar da pagina em que está ou até mesmo
+                    para
+                    uma nova página
+                </p>
+                <p> Exemplo: &lt;a href="https://www.youtube.com/watch?v=x6LXp9uWQUk" target="_blank"&gt; Youtube
+                    &lt;/a&gt; </p>
+                <p> A tag link pode direcionar para outra pagina HTML também.</p>
+                <p> Exemplo: &lt;a href="index.html" target="_blank"&gt; Outra pagina &lt;/a&gt;</o>
+
+                <p><a href="https://www.youtube.com/watch?v=Mqfwbf3X8SA" target="_blank"> Youtube music </a></p>
+                <p> <a href="https://www.alura.com.br/apostilas" target="_blank"> Alura </a></p>
+                <p> <a href=https://www.google.com/ target="_blank"> Google</a></p>
+                <p>A tag é representada por a, seguida de um atributo chamdo href em que recebe o link dentro das aspas,
+                    esse link é para onde o usuario será direcionado, no código acima colocamos um atributo target que
+                    significa o lugar em que a página vai abrir, pode ser em uma nova guia, no caso utilizamos _blank
+                    dentro
+                    das aspas, depois temos o espaço do nome que podemos dar ao link que fica entre a tag de abertura e
+                    fechamento.</p>
+
+
+            </section>
+        </div>
+        <div id="imagens">
+            <section>
+                <h2> Imagens</h2>
+                <p> Uma das tags que mais utilizamos é a tag de <Strong>imagens </Strong>
+                    representada pela tag img.</p>
+                <p> As imagens estão em todos os sites, principalmente em sites comerciais.</p>
+                <img src="https://i.im.ge/2023/09/17/6xwAk4.dispositivos.jpg" alt="dispositivos eletronicos"
+                    title="dispositivos eletronicos" width="500px">
+                <p> A imagem acima recebeu o seguinte código que usaremos de exempo:</p>
+                <p> &lt;img src="https://i.im.ge/2023/09/17/6xwAk4.dispositivos.jpg" alt="dispositivos eletronicos"
+                    title="dispositivos eletronicos" width="500px"&gt;</p>
+                <p> A tag é a <strong> img </strong> em que só temos a abetura, é uma das poucas tags sem fechamento.
+                </p>
+                <p> Nas imagens precisamos usar <strong>atributos</strong>: Eles são usados para modificar ou definir
+                    características específicas para esses elementos. sendo utilizados dentro das tags.</p>
+                <p> Atributo <strong> src</strong> recebe o caminho em que a imagem esta.</p>
+                <p> Nas tags de img temos o atributo <strong> alt</strong> que recebe a descrição da imagem dentro das
+                    aspas, essa descrição é util para pessoas com deficiência que precisam utilizar o site.</p>
+                <p> O atributo <strong> title </strong> da um nome a imagem quando passamos o mouse em cima.</p>
+                <p> E temos o atributo muito importânte, o width, escrevemos width e ele recebe o tamanho da largura da
+                    imagem, ele ajusta automaticamente a altura, porém temos o atributo height que define a altura
+                    também. Eles recebem o tamanho em px(pixels) ou também em %( porção da tela que deseja ocupar).</p>
+                <p> Agora vou explicar como utilizar imagens que estão salvas no seu computador</p>
+                <p> Temos esse código: &lt;img src="<em>../img/pexels-cottonbro-studio-8721318.jpg </em>"
+                    width="500px"&gt;</p>
+                <p> Repare que não utilizamos link desta vez, colocamos dois pontos que significa sair da pasta que
+                    estamos, depois contra-barra que significa entrar em uma pasta depois colocamos contra-barra
+                    novamente para chegarmos a imagem, e pronto selecionamos a imagem do nosso computador.</p>
+            </section>
+        </div>
+        <div>
+            <section id="idEclass">
+                <h2> Atributo id e atributo class</h2>
+
+                <h3> Atributo ID:</h3>
+
+                <p> Um <strong> id </strong> é um nome dado a certa tag pode ser qualquer tag de
+                    abertura, ele
+                    identifica de forma única
+                    essa tag.</p>
+                <p> Um id é bem util quando utilizamos CSS, quando precisamos estilizar certa tag e não queremos
+                    selecionar todas, selecionamos apenas a que possui id.</p>
+                <p> Exemplo: &lt;h1 id="titulo"&gt; Conteúdo &lt;/h1&gt;</p>
+                <p> Temos uma tag de titulo com o id titulo, ou seja se quisermos estilizar apenas este conteudo dentro
+                    da tag h1, pegamos o id titulo e vamos no CSS e fazemos a estilização referente a ele.</p>
+                <p> Agora vou fazer outra aplicação ao id.</p>
+                <p> Imagine que temos uma tag link ao topo da pagina. &lt;a&gt; href="#titulo"> titulo &lt;/a&gt;</p>
+                <p> Repare que no lugar de link temos um #titulo, significa que se apertarmos no link, ele nos levara
+                    para a parte da página em que possui um id="titulo".</p>
+                <p> Ou seja podemos utilizar o link com ID para mover-se pelas partes da mesma página.</p>
+                <h3> Atributo Class:</h3>
+                <p> O atributo <strong> class</strong> também é bastante utilizado pelo CSS.</p>
+                <p> Com o atributo class, colocamos classes em uma ou várias tag, essas classes nada mais é que um nome
+                    para se referir a elas. </p>
+                <p>Quando formos estilizar podemos editar todas as tags que colocamos a classe.</p>
+                <p> Exemplo: &lt;p class="corAmarela"&gt; esta é uma tag de paragrafo &lt;/p&gt;</p>
+                <p> A tag de paragrafo acima tem uma classe chamada corAmarela, ou seja poderiamos colocar em amarelo
+                    todos os paragrafos que tivesses essa classe.</p>
+                <p> Detalhe os ID e Classes, podem ter qualquer nome, mas faz sentido colocar um nome que tenha relação
+                    com o uso.</p>
+            </section>
+        </div>
+        <div id="div">
+            <section>
+                <h2> Div</h2>
+                <p> As <strong> divs</strong> são literalmente divisões, agrupamos tags, elementos e
+                    contúdos dentro de
+                    uma div, fazemos isso para separar e podemos colocar uma class ou id na div podendo assim estilizar
+                    toda essa divisão.</p>
+                <p> Usada para criar caixas ou áreas em uma página da web que podem ser estilizadas, posicionadas ou
+                    manipuladas com CSS e JavaScript. </p>
+                <p>Exemplo: &lt;div&gt; tas e contúdo &lt;/div&gt;</p>
+                <p>Temos a tag de abertura, logo em seguida temos toda a área que queremos estilizar no CSS e sem
+                    seguida tag de fechamento da div.</p>
+                <img src="https://i.im.ge/2023/09/17/6xATQc.Captura-de-tela-2023-09-16-174343.png" alt="codigo div"
+                    title="div" width="500px">
+                <p> A imagem acima mostra um código com uma div, temos o conteúdo dentro da div, a div recebe um ID ou
+                    seja se quisermos estilizar no CSS, selecionamos o id da div e pronto, toda a div vai sofrer um
+                    design.</p>
+            </section>
+        </div>
+        <div id="header">
+            <section>
+                <h2> Header</h2>
+                <p> <strong> Header</strong> seria o cabeçalho da pagina, o topo, onde geralmente se
+                    encontra o titulo,
+                    menu de naveção também.</p>
+                <p> Exemplo: &lt;header&gt; conteudo do cabeçalho &lt;/header&gt; </p>
+                <p> Note é apenas uma marcação não vai ter nenhuma diferença visual ( sem utilizar CSS).</p>
+                <img src="https://i.im.ge/2023/09/17/6xCiaG.cabecalho.png" width="500px" alt="codigo do header"
+                    title="header">
+
+            </section>
+        </div>
+        <div id="section">
+            <section>
+                <h2> Section</h2>
+                <p> A tag section serve para separarmos as seções da página, semelhante as divs porém
+                    com o significado.
+                </p>
+                <p> &lt;section&gt; conteudo de roupas &lt;/section&gt; &lt;section&gt; conteudo de calçados
+                    &lt;/section&gt; &lt;section&gt; conteudo de chapéu &lt;/section&gt;</p>
+                <p> Por exemplo temos um site que é uma loja, ele possuis várias seções uma de roupa, outra de calçados
+                    e outra de chapéus.</p>
+                <img src="https://i.im.ge/2023/09/17/6xCp6m.section.png" width="350" title="section"
+                    alt="codigo section">
+            </section>
+        </div>
+        <div id="main">
+            <section>
+                <h2> Main</h2>
+                <p> A tag main, marca o contúdo principal da página.</p>
+                <p> Exemplo: &lt;main&gt; contúdo principal &lt;/main&gt;</p>
+                <img src="https://i.im.ge/2023/09/17/6xEPfm.main.png" alt="codigo main" title="main">
+            </section>
+        </div>
+        <div id="nav">
+            <section>
+                <h2> Nav</h2>
+                <p> A tag <strong>nav</strong> marca uma seção de navegação.</p>
+                <p> Por exemplo um conjunto de links que levam a outras paginas, um menu.</p>
+                <p> Exemplo: &lt;nav&gt; conteúdo de links &lt;/nav&gt;</p>
+                <p> Abaixo temos uma tag header, dentro dela temos uma tag Nav, dentro dessa tag
+                    temos
+                    uma tag ul para
+                    listas desordenadas e ai dentro temos uma tag link, e dentro o li da lista.</p>
+                <p class="centro"> Assim montamos um menu de navegação no exemplo abaixo:</p>
+                <img src="https://i.im.ge/2023/09/17/63RgWP.nav.png" width="560px" alt="codigo nav" title="nav">
+
+
+                <p> E abaixo temos uma tag nav com links. </p>
+                <nav>
+                    <ul>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <li> Youtube</li>
+                        </a>
+                        <a href="https://github.com/Natan-Ferreira23" target="_blank">
+                            <li> Perfil Git hub</li>
+                        </a>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div id="introducaoCSS">
+            <section>
+                <h2> Introdução ao CSS </h2>
+                <p class="textcentro"> O CSS oferece uma série de recursos poderosos, como seletores, herança, classes e
+                    id,
+                    que permitem
+                    uma personalização detalhada da aparência de uma página da web.</p>
+                <p class="textcentro"> O CSS é fundamental para uma pagina Web, pois é nele que vamos estilizar tudo,
+                    dar cores, formatar
+                    tamanhos, controlar posições e etc.</p>
+                <p class="textcentro"> O CSS nos permite abrir um documento em CSS separado para estilizarmos ou
+                    simplismente escrever o
+                    atributo style e editar na pagina mesmo.</p>
+                <p class="textcentro"> Utilizaremos um novo documento CSS nessa apostila, ou seja criei um documento
+                    chamado
+                    apostilaDesign.css o ponto css indica que é um documento CSS.</p>
+                <p class="textcentro"> Mas temos que dar uma referencia a nossa pagina html para que ela saiba de qual
+                    pagina CSS puxar as
+                    estilizações.</p>
+                <p class="textcentro"> Dentro da tag Head do HTML escrevemos o seguinte codigo &lt;link rel="stylesheet"
+                    href="../css/apostilaDesign.css"&gt;</p>
+                <p class="textcentro"> Vale lembrar que dentro do atributo href, vamos colocar a localização da nossa
+                    pagina CSS.</p>
+
+            </section>
+        </div>
+        <div id="seletores">
+            <section>
+                <h2> Seletores </h2>
+                <h3>Seletores de tipos</h3>
+                <p> <strong>Seletores </strong> de tipos, selecionam elementos com base as tags HTML,
+                    por
+                    exemplo se
+                    quisermos selecionar
+                    todas as tags de paragrafos e estilizar no CSS, ecrevemos p de paragrafos e abrimos chaves e dentro
+                    das chaves nós colocamos os codigos de estilização CSS. </p>
+                <p> Exemplo:</p>
+                <img src="https://i.im.ge/2023/09/17/6ciARp.seletores.png" width="500px" alt="codigo seletor"
+                    title="seletor">
+                <p> No exemplo acima utilizamos o seletor de tipo para selecionar todas as tags paragrafos.</p>
+                <p> Após selecionarmos os paragrafos note que foi aplicado uma estilização, chamada de color, color:red;
+                    significa que todas as letras dos paragrafos vão ficar vermelhas.</p>
+                <p> Vamos dar outro exemplo pratico, as imagens estão coladas nas laterais, vamos dar uma margen de 5% a
+                    esqueda para darmos um espaçamento.</p>
+                <img src="https://i.im.ge/2023/09/17/6c0ypS.seletorimg.png" width="500px" title="seletor"
+                    alt="codigo de seletor">
+                <p> Pronto, todas as imagens agora não estão mais coladas na borda da pagina web e deram um espaçamento
+                    de 5% na esquerda.</p>
+                <h4 class="separacoes"> Margin</h4>
+                <p> Os elementos de <strong>margin</strong> são: margin-left; margin-top; margin-right; e
+                    margin-bottom;. Ou seja podemos controlar a margem das coisas, desse jeito controlamos as posições
+                    do nosso conteúdo.</p>
+                <h4 class="separacoes"> Padding</h4>
+                <p>É uma propriedade em CSS que controla o espaço entre o conteúdo de um elemento
+                    HTML e
+                    sua borda.</p>
+                <p> Essa propriedade é usada para adicionar espaço interno a um elemento, criando um espaço em branco
+                    entre o conteúdo do elemento e sua borda.</p>
+                <img src="https://i.im.ge/2023/09/17/6cwcsx.CSS-Padding.jpg" width="500px" title="padding"
+                    alt="imagem de padding">
+                <p> Acima temos uma imagem que demonstra a diferença entre margin e padding e mostra como o espaçamento
+                    é feito.
+                <h3 class="separacoes"> Seletores tipo id</h3>
+                <p><strong> Seletores id </strong>são quase iguais a seletores de tipo, a diferença é
+                    que
+                    selecionam os
+                    ID. </p>
+                <p> Por exemplo na primeira div desta pagina HTMl, a div que recebeu o id="topo"</p>
+                <p> Bom essa div recebeu o header, ou seja é o topo da pagina e aplicamos uma estilização no topo da
+                    nossa pagina com bordas.</p>
+                <p> Veja que código utilizei na nossa pagina CSS para estilizar a pagina HTML, utilizando o
+                    <Strong>seletor de ID </Strong>:
+                </p>
+                <img src="https://i.im.ge/2023/09/17/6c9ORq.seletorid.png" width="500px" title="seletor id"
+                    alt="codigo de borda utilizando seletor ID">
+                <p> Note que para referenciarmos o ID temos que colocar uma # e depois o nome do id e dentro das chaves
+                    vão os comandos de estilização do id.</p>
+                <p> Vamos falar de um desses comandos de estilização do CSS, o <strong>background</strong> </p>
+                <h4 class="separacoes"> Background</h4>
+                <p> No exemplo acima utilizamos o background-color para darmos cor a toda a div que
+                    recebeu o id topo.
+                </p>
+                <p> Ou seja com esse comando nós estilizamos o fundo da pagina.</p>
+                <p>Ela é bastante versátil e pode ser usada para aplicar cores de fundo, imagens de fundo, gradientes,
+                    padrões e até mesmo animações de fundo.</p>
+                <p> Exemplos:</p>
+                <ul>
+                    <li> background-color: define cor do fundo.</li>
+                    <li>backgorund-image: define uma imagem de fundo.</li>
+                    <li> Background-position: define a posição da imagem de fundo, utilizando center, top, right,
+                        bottom, left.</li>
+                    <li> background-size: controlamos o tamanho da imagem de fundo, você pode usar valores como auto,
+                        cover, contain ou especificar uma largura e altura em pixels.</li>
+                </ul>
+                <h3 class="separacoes"> Seletores de Classe</h3>
+                <p> Os <Strong>seletores de classe</Strong>, são uma maneira eficaz de selecionar
+                    várias
+                    tags que
+                    possuem mesma classe e
+                    estilizar todas com o mesmo estilo, assim economizamos tempo.</p>
+                <p> Exemplo:</p>
+                <img src="https://i.im.ge/2023/09/18/6cNFMF.seletorclasse.png" width="500px"
+                    alt="codigo classe seletora" title="seletor classe">
+                <p> No exemplo acima utilizamos um seletor de classe, em um titulo H1 no topo da pagina, escrevemos
+                    class="nome classe" dentro da tag ou tags que queremos estilizar.</p>
+                <p> Se quisessemos aplicar a mesma estilização de cima a varias outras tags poderiamos dar uma classe
+                    com o mesmo nome a todas estas tags.</p>
+                <h4> Formatação de texto</h4>
+                <p> Acima aplicamos uma fonte utilizando <strong>font-family:</strong></p>
+                <p> Dentro dela podemos colocar as fontes que queremos utilizas na nossa pagina web.</p>
+                <p> Também utilizamos o <strong>text-align: center;</strong> que nos mostra que o texto dentro do h1 vai
+                    ser exibido na
+                    posição central da pagina, controlamos a posição com o text-align.</p>
+                <p> Exibirei este texto ao centro como exemplo.</p>
+                <p> Temos o <strong>text-size:</strong>,controla o tamanho da fonte do texto. Você pode especificar o
+                    tamanho em pixels, em, porcentagem ou outras unidades de medida.</p>
+                <p> exemplo</p>
+                <h4 class="separacoes"> Sobre seletores </h4>
+                <p> Podemos agrupar várias tags que tem estilizações iguais.</p>
+                <img src="https://i.im.ge/2023/09/18/6ct118.gruposeletores.png" width="500px"
+                    alt="codigo de agrupamento de seletores" title="agrupamento de seletores">
+                <p> No exemplo acima, temos várias tags que possuem estilizalão comum, ou seja apenas colocamos juntos e
+                    separamos por virgula para estilizar todas de uma vez só.</p>
+            </section>
+        </div>
+        <div id="cores">
+            <section>
+                <h2> Cores em CSS</h2>
+                <p> Como já vimos acima podemos dar cores a nossa pagina HTML.</p>
+                <p id="blocoCor"> Darei cor a esse bloco que estou escrevendo.</p>
+                <img src="https://i.im.ge/2023/09/18/6cAGw1.blocoCor.png" width="500px" alt=" exemplo" title="exemplo">
+                <p> Veja acima o código que utilizamos para estilizar, com background-color para o fundo e color para a
+                    cor das fontes.</p>
+                <p> Criamso as cores atraves do padrão RGB.</p>
+                <p> Criamos cores através do padrão Hexadecimal.</p>
+            </section>
+        </div>
+        <div id="bordas">
+            <section>
+                <h2> Bordas </h2>
+
+                <p> Temos bordas que ajudam a estilizar nossa pagina web.</p>
+                <p> Borda style recebe o estilo da borda, por exemplo border-style:solid; .</p>
+                <p> Abaixo temos so exemplos:</p>
+                <ul>
+                    <li> dotted: borda pontilhada.</li>
+                    <li>dashed: borda tracejada.</li>
+                    <li> solid: borda solida.</li>
+                    <li>double: borda dupla. </li>
+                    <li>groove: borda com estilo 3D. </li>
+                </ul>
+                <p id="dotted"> paragrafo com borda dotted.</p>
+                <p id="dashed"> paragrafo com borda dashed.</p>
+                <p id="solid"> Paragrafo com borda solid.</p>
+                <p id="double"> paragrafo com borda double.</p>
+                <p id="groove"> paragrafo com borda groove.</p>
+                <p> Os códigos que utilizamos na página CSS:</p>
+
+
+                <img src="https://i.im.ge/2023/09/18/6ccql9.borda.png" width="400px" title="bordas"
+                    alt="codigo de bordas">
+
+                <p> Como podemos ver acima estilizamos as bordas a partir do border style.</p>
+                <p> Bordas selecionadas: Se queremos colocar bordas em apenas no topo, basta fazermos border-top e
+                    estilizarmos, o memso se aplica ao restante dos lados.</p>
+                <ul>
+                    <li> border-top: borda topo.</li>
+                    <li> border-right: borda da direita.</li>
+                    <li> border-bottom: borda de baixo.</li>
+                    <li> border-left: borda da esquerda.</li>
+                </ul>
+                <p> exemplo:</p>
+                <img src="https://i.im.ge/2023/09/18/6c4AhM.bordas.png" width="400px" title="borda"
+                    alt="bordas codigo ">
+                <p> Neste código acima, utilizamos para dar uma borda no topo e na parte inferior da nossa div de
+                    bordas.</p>
+                <p> Repare que escrevemos 8px para ser a largura da borda, e também colamos o número em hexadecimal que
+                    representa a cor da borda que queremos.</p>
+                <h4 class="separacoes"> Botões com bordas e list item </h4>
+                <p> Podemos fazer botões de navegação, usando bordas e as listas desordenadas.</p>
+
+                <ul>
+                    <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank" class="botoes">
+                        <li class="listbotom"> Youtube Lofi</li>
+                    </a>
+                    <a href="https://www.up.edu.br/aluno/" target="_blank" class="botoes">
+                        <li class="listbotom"> Area do aluno Positivo </li>
+                    </a>
+                    <a href="https://fonts.google.com/specimen/Roboto?query=rob" target="_blank" class="botoes">
+                        <li class="listbotom"> Google Fonts</li>
+                    </a>
+                </ul>
+                <p> Utilizamos alguns elementos CSS para fazer um botão com bordas.</p>
+                <p> Os códigos estão abaixo:</p>
+                <img src="https://i.im.ge/2023/09/18/6gQtxJ.botao.png" width="400px" titl="botao"
+                    alt="botao com bordas">
+                <p>Para fazermos os botões primeiramente abrimos no documento HTML uma lista desordenada ul.</p>
+                <p> Dentro delas abrimos uma tag de link onde colocamos o link para onde o botão vai nos levar, por
+                    exemplo um link do youtube para um botão do youtube.</p>
+                <p>E dentro do link onde colocamos o nome do link, vamos abrir li de lista, colocar o nome do botão e
+                    depois fechar li.</p>
+                <p> Vamos repetir esse processo em todos os botões</p>
+                <p> Para fazermos a estilização igual da imagem, dei a mesma classe para todas as tags de link e a mesma
+                    classe para os li de lista.</p>
+                <p>Em seguida coloquei o comando <strong> text-decoration: none;</strong> dentro da seleção da classe
+                    botoes, fazendo com que todos perdessem aquela linha padrão que fica embaixo do link.</p>
+                <p> Dentro desta mesma classe coloquei o elemento <strong> border:3px solid #242F73</strong></p>
+                <p> Com elemento border podemos colocar a largura da borda em px, o stilo dela, no caso desta é solid e
+                    também a cor em hexadecimal.</p>
+                <p> Coloquei um <strong>padding: 0.3%</strong> para o conteudo de dentro da borda ter um espaçamento
+                    maior.</p>
+                <p> <strong> Margin-left</strong> para conseguirmos ter um espaçamento entre os botões e não ficar
+                    grudado.</p>
+                <p><strong> Color: aliceblue</strong>, para as letras do conteúdo dentro do botão ter uma cor chamada
+                    aliceblue.</p>
+                <p> <strong> background-color:#9AAFD9</strong>, com isso conseguimos ter uma cor de fundo no botão, no
+                    caso aqui esta em Hexadecimal.</p>
+                <p> <strong> .botoes:hover{}</strong>, na imagem temos um elemento hover, bem quando passamos o mouse em
+                    cima a cor da borda e das letras mudam com esta função.</p>
+            </section>
+        </div>
+        <div id="formularios">
+            <section>
+                <h2> Formulários</h2>
+                <p> Os <strong>formulários</strong> permitem o usuario inserir, enviar e interagir com os dados.</p>
+                <p> Por exemplo para se cadastrarmos em algum site, estamos literalmente preenchendo um formulário.</p>
+                <p> É um dos recursos mais importantes:</p>
+                <p> Abaixo faremos um formulario pedindo nome e sobrenome:</p>
+                <div>
+                    <form>
+                        <p>
+                            <label for="nome"> Nome:</label>
+                            <input type="text" name="nome" id="nome" required placeholder="digite seu nome">
+                            <label for="sobrenome"> Sobrenome: </label>
+                            <input type="text" name="sobrenome" id="sobrenome" required
+                                placeholder="digite seu sobrenome">
+                        </p>
+                    </form>
+                </div>
+                <p> Ao lado colocarei um código que utilizei para fazer o formulario acima:
+                    <img src="https://i.im.ge/2023/09/18/6RFv6a.formulario.png" width="650px" alt="formulario nome"
+                        title="nome e sobrenome codigo">
+                </p>
+                <p> <strong> form</strong>, a tag form é a primeira de todas, é a tag que agrupa todos os dados de
+                    entrada deste formulario, todos os dados que estão dentro de um memso forms vão se relacionar com o
+                    mesmo usuario que digitou os dados.</p>
+                <p> depois temos a tag <strong> input</strong> ela é a tag que cria uma caixa branca para o usuário
+                    digitar seus dados de entrada no formulário.</p>
+                <p> Note qque dentro dela temos alguns atributos:</p>
+                <ul>
+                    <li> type </li>
+                    <li> name="nome"</li>
+                    <li>id="nome"</li>
+                    <li> required</li>
+                    <li> placeholder</li>
+                </ul>
+                <p> <strong> type</strong>: significa o tipo do dado de entrada, no exemplo utilizamos <em>text</em>, ou
+                    seja um dado tipo texto, pode ser nome, sobrenome ou alguma palavra.</p>
+                <p> Podemos ter outros tipos de input, como password (senha), E-mail, Number(numeros), note temos os
+                    tipos de entradas corretos para cada um.</p>
+                <p> Exemplos: type="password"; atributo para campos de senha
+                    type="email"; atributo de email
+                    type="submit"; botão de enviar do formulario</p>
+                <p> <strong> Name</strong>, este atributo serve para identificarmos o input de entrada, no caso do
+                    exemplo name="nome", sabemos que esse atributo vai receber os nomes do usuario, assim será enviado
+                    de forma identificada e referenciada para o servidor. . </p>
+                <p> <strong> ID</strong> para cada input dei um id, algo que identifica o campo de entrada de forma
+                    única, e note que na tag label coloquei for="id do Input" para que quando clicamos no texto label o
+                    cursor no campo input já começa a piscar, sendo intuitivo para o usuario que o label pertence ao seu
+                    campo input, e também permite estilizações de forma separada. </p>
+                <p> <strong> Required</strong> significa que todo o campo input que tiver required, requer que seja
+                    preenchido para o formulário ser enviado, somos obrigados a preencher para poder enviar.</p>
+                <p> <strong> Placeholder</strong> serve para tornar mais intuitivo para o usuário no campo em que
+                    digitamos os dados, em um input de tipo nome por exemplo, colocamos placeholder="Digite seu nome ",
+                    vai aparecer "digite seu nome" no campo input de nome.</p>
+                <h3> Cadastro de Usuário</h3>
+                <p> Agora faremos um cadastro de usuário completom utilizando todas as opções de formulário:</p>
+                <div id="bordaForm">
+                    <form id="formCadastro">
+                        <p>
+                            <label for="name"> Nome:</label>
+                            <input type="text" id="name" name="nome" placeholder="Digite seu nome" required>
+                            <label for="lastname"> Sobrenome:</label>
+                            <input type="text" id="lastname" name="sobrenome" placeholder="Digite seu sobrenome"
+                                required>
+                        </p>
+                        <p>
+                            <label for="email"> E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                        </p>
+                        <p>
+                            <label for="celphone">Celular:</label>
+                            <input type="tel" id="celphone" name="celular" placeholder="Digite seu celular" required>
+                        </p>
+                        <p>
+                            <label for="idade"> Idade:</label>
+                            <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required>
+                        </p>
+                        <p> Gênero</p>
+                        <p>
+                            <label for="masculino"> Masculino</label>
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="feminino"> Feminino </label>
+                            <input type="radio" name="genero" id="feminino">
+                        </p>
+                        <p> Onde você já viu nosso site ?</p>
+
+                        <p>
+                            <label for="youtube"> Youtube</labe>
+                                <input type="checkbox" id="youtube" name="indicacao">
+                                <label for="amigo"> Indicação de amigo </label>
+                                <input type="checkbox" id="amigo" name="indicacao">
+                                <label for="outro"> Outros </label>
+                                <input type="checkbox" id="outro" name="indicacao">
+                        </p>
+                        <p>
+                            <label for="password"> Senha: </label>
+                            <input type="password" id="password" name="senha" placeholder="Digite seu senha" required>
+                        </p>
+                        <input type="submit" value="Cadastrar" id="botaoForm">
+                    </form>
+                </div>
+                <p> Agora que terminamos a tela de cadastro, vamos explicar parte por parte cada input, cada label,
+                    cada type:</p>
+                <h4> Type text</h4>
+                <img src="https://i.im.ge/2023/09/18/6Rnzl9.NOMEsobrenome.png" width="1000px" title=" codigo type text"
+                    alt="código type text nome e sobrenome">
+                <p> Esta tela de códigos é referente ao input de type="text" de nome e sobrenome:</p>
+                <p> Tudo está dentro de uma tag paragrafo para pegar a formatação da tag paragrafo da página.</p>
+                <p>Colocamos &lt;label for="name"&gt; Nome: &lt;/label&gt; O <strong> Label</strong> é a caixa de texto
+                    que vai ao lado do campo de entrada dos dados, note que ela possui um for="name" falaremos dele
+                    abaixo.</p>
+                <p> Tag <strong> input</strong> esse campo recebeu <Strong> type="text"</Strong> o que significa que os
+                    dados de entrada
+                    serão de texto, este campo recebeu um id="name" o que significa que faz referencia ao for="name" no
+                    label e quando
+                    clicamos no texto do label o cursor pisca automaticamente no campo input.</p>
+                <p> O campo input recebu também o atributo <strong>name="nome"</strong> identificando esse input como
+                    nome.</p>
+                <p> O campo input também recebeu o comando <strong>placeholder="Digite seu nome aqui"</strong>, para que
+                    dentro do campo de entrada dos dados fique o fácil do usuario entender o que digitar.</p>
+                <p> A tag input recebeu <strong> required</strong> que significa que é obrigatório o usuário escrever
+                    seu nome neste formulário.</p>
+                <p> A caixa de <em> Sobrenome</em> recebeu literalmente os mesmos comandos então não irei explicar de
+                    novo, porém está na imagem do código acima.</p>
+                <p> Como já expliquei sobre id, name e placeholder, não irei explicar novamente pois todos os inputs a
+                    seguir vão ter o mesmo.</p>
+                <h4> Type E-mail</h4>
+                <img src="https://i.im.ge/2023/09/18/6W7yU1.email.png" width="800px" title="email"
+                    alt="código do email">
+                <p> Input do tipo <em>E-mail</em>, recebe <strong>type="email"</strong> e pronto nossa caixa de entrada
+                    é do tipo
+                    e-mail, ele também recebeu um id e name própio além de um required e placeholder.</p>
+                <p> Tem um label escrito E-mail e dentro da tag label um for="email".</p>
+                <h4> Type telefone</h4>
+                <img src="https://i.im.ge/2023/09/18/6WIMlc.celular.png" width="800px" title="celular"
+                    alt="codigo do input celular">
+                <p> Input do tipo <em>telefone celular</em> recebe um <strong>type="tel"</strong> o usuário pode digitar
+                    seu numero celular lá.</p>
+                <h4> Type Number</h4>
+                <img src="https://i.im.ge/2023/09/18/6WLX9C.idade.png" width="800px" alt="codigo de input idade"
+                    title="idade">
+                <p> Acima temos <em> Idade</em> que recebeu o input <strong> type="number"</strong>, ou seja quando
+                    precisamos utilizar input com números colocamos tipo number.</p>
+                <h4> Type Radio</h4>
+                <img src="https://i.im.ge/2023/09/18/6WLwFz.genero.png" width="800px" alt=" codigo de genero"
+                    titulo="tipo radio">
+                <p> Acima temos a imagem do tipo <em> Radio</em>, ou seja os inputs recebem <storng>type="radio".
+                    </storng>
+                </p>
+                <p>Os atributos name precisam ser o mesmo, pois neste input temos mais de uma bolinha e podemos marcar
+                    somente uma.</p>
+                <p> Ou seja precisamos marcar apenas uma opção, por exemplo gênero, podemos marcar masculino ou femino.
+                </p>
+                <p> Logo os dois recebem name="genero" para que o formulario entenda que estão relacionados com o mesmo
+                    input e assim possamos enviar somente uma resposta ao servidor.</p>
+                <h4> Type checkbox</h4>
+                <img src="https://i.im.ge/2023/09/18/6Whsgc.cheackbox.png" width="800px" alt="codigo do input checkbox"
+                    title="checkbox">
+                <p> Bom no nosso cadastro ele pediu um meio pelo qual você já ouviu falar do site, youtube, por um
+                    amigo, ou outro canal. </p>
+                <p> No checkbox, podemos marcar mais de um ou todas as opções.</p>
+                <p> Está é o input do tipo <em> checkbox</em>, o <strong>type="checkbox"</strong></p>
+                <h4> Type password</h4>
+                <img src="https://i.im.ge/2023/09/18/6W5gQ6.senha.png" width="1000px" title="senha"
+                    alt="codigo de senha">
+                <p> Acima temos o tipo de input <em> senha </em>, especifico para digitarmos a nossa senha.</p>
+                <p> o type é <strong> type="password"</strong>.</p>
+                <h4> Type submit</h4>
+                <img src="https://i.im.ge/2023/09/18/6Wms8S.Submit.png" width="1000px" title="submit"
+                    alt=" código do subimt">
+                <p> O tipo <em> submit</em> nada mais é que um botão para enviar o formulário.</p>
+                <p> <strong> type="submit" </strong></p>
+                <p> Quando apertamos o botão, os dados do formulário vão ser enviados ao servidor.</p>
+                <p> Neste input colocamos um <strong> value="cadastrar"</strong> pois este será o texto exibido no
+                    botão.</p>
+                <p> E coloquei um <strong> id="botaoForm"</strong> pois eu estilizei ele usando nossa página CSS.</p>
+                <p> Após todos esses códigos e comandos de label e input eu fechei a tag form, apertando o input submit,
+                    todos os dados preenchidos dentro da tag form, vão ser enviados para o destino especificado.</p>
+            </section>
+        </div>
+        <div id="fim">
+            <section>
+                <h2> Rodapé</h2>
+                <p>Chegamos ao fim da página</p>
+                <p> O rodapé fica ao fim da página, com os créditos de quem fez o site e também em alguns sites os
+                    contatos.</p>
+                <img src="https://i.im.ge/2023/09/19/6Wb1Bx.rodape.png" width="500px" alt="imagem do codigo do rodape"
+                    titl="rodape">
+                <p> O rodapé vai dentro de uma tag chamada <strong> footer</strong> que é o pé do texto.</p>
+                <p> Separei uma div para o rodape, escrevi utilizando a tag small o nome de criou este site.</p>
+                <p> Depois fui na nossa página CSS e estilizei a div com as bordas, fazendo assim um rodape.</p>
+
+            </section>
+        </div>
+        <footer>
+            <div id="rodape">
+                <p> <small>@ Natan Web design</small></p>
+
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
